@@ -1,0 +1,16 @@
+{
+  "name": "moment2",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
