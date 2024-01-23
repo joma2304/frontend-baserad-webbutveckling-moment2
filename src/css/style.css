@@ -6,8 +6,10 @@
 }
 
 header {
+    display: flex;
     background-color: #e2e2e2;
     width: 100%;
+    justify-content: center;
 }
 
 .logo {
