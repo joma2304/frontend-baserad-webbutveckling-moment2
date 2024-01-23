@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    }
+    
+    table {
+      font-size: 1.5em;
+    }
+    
+    th {
+      text-align: left;
+      padding: 10px;
+      text-align: left;
+    }
+    
+    td {
+      font-weight: 400;
+      padding: 8px;
+      border: 1px solid #0d4558;
+    }
+    
+    tbody tr:hover {
+      background-color: rgb(194, 194, 194);
+      transition: background-color 0.3s ease;
+    }
+    
+    @media  (max-width: 700px) {
+      table {
+        font-size: 0.8em;
+      }
+    }
