@@ -7,7 +7,7 @@
 
 header {
     display: flex;
-    background-color: #e2e2e2;
+    background-color: rgb(181, 181, 181);
     width: 100%;
     justify-content: center;
 }
@@ -26,40 +26,59 @@ h1 {
 .flex-container {
     display: flex;
     justify-content: center;
-    }
-    
+}
+
+table {
+    font-size: 1.5em;
+    margin-bottom: 3%;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    font-weight: 400;
+    padding: 8px;
+    border: 1px solid #5b5b5b;
+}
+
+tbody tr:hover {
+    background-color: rgb(194, 194, 194);
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 700px) {
     table {
-      font-size: 1.5em;
-      margin-bottom: 3%;
-    }
-    
-    th {
-      text-align: left;
-      padding: 10px;
-      text-align: left;
-    }
-    
-    td {
-      font-weight: 400;
-      padding: 8px;
-      border: 1px solid #0d4558;
-    }
-    
-    tbody tr:hover {
-      background-color: rgb(194, 194, 194);
-      transition: background-color 0.3s ease;
-    }
-    
-    @media  (max-width: 700px) {
-      table {
         font-size: 0.8em;
-      }
-
-      h1 {
-        font-size: 2em;
-      }
-
-      .logo {
-        width: 50px;
-      }
     }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
