@@ -100,10 +100,10 @@ document.addEventListener("DOMContentLoaded", function () {
             const cells = Array.from(row.querySelectorAll("td"));
             const rowText = cells.map(cell => cell.textContent.toLowerCase()).join(" ");
 
-            // Använder .includes() för att kolla om söktermen finns i radtexten
+            // Kolla om söktermen finns i radtexten
             const shouldDisplay = rowText.includes(searchTerm);
 
-            // Uppdatera radens display-stil baserat på sökresultatet
+            // Uppdatera listan
             row.style.display = shouldDisplay ? "" : "none";
         });
     });
